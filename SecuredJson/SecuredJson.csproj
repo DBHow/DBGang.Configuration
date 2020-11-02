@@ -4,6 +4,13 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>DBGang.Configuration.SecuredJson</RootNamespace>
     <AssemblyName>DBGang.Configuration.SecuredJson</AssemblyName>
+    <Version>2.0.0</Version>
+    <Authors>DBHow</Authors>
+    <Description>Secure sensitive data in Json file</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/DBHow/DBGang.Configuration.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Secure Json Configuration</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
