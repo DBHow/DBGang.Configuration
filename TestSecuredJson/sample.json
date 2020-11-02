@@ -1,0 +1,23 @@
+{
+  "ObjKey": {
+    "SubStringKey1": "SubStringValue1",
+    "SubIntegerKey2": 20,
+    "SubBooleanKey3": true,
+    "SubArray1": [
+      "SubItem1",
+      "SubItem2",
+      "SubItem3"
+    ]
+  },
+  "ArrayKey": [
+    "Item1",
+    "Item2",
+    "Item3"
+  ],
+  "StringKey1": "StringValue1",
+  "IntegerKey2": 2,
+  "BooleanKey3": false,
+  "ConnectionStrings": {
+    "MyDB": "Server=myServer;Database=myDatabase;User Id=myUserId;Password=myPassword;"
+  }
+}
