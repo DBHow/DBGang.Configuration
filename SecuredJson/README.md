@@ -48,4 +48,6 @@ To encrypt a particular property, add **UNENCRYPTED::** as prefix to the propert
 }
 ```
 
+Please note **WRITE** permission is required for your app to update the json file.
+
 Please take a look at the test project to see how to use it.
