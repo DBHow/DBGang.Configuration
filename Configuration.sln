@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecuredJson", "SecuredJson\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSecuredJson", "TestSecuredJson\TestSecuredJson.csproj", "{E8A0B8A0-E2F7-403C-9C05-824C7AB98E11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreSQL", "PostgreSQL\PostgreSQL.csproj", "{9287F550-9D48-4CC3-9AA4-C3C059DD9939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPostgreSQL", "TestPostgreSQL\TestPostgreSQL.csproj", "{1B888578-0CD7-4EC5-B8F0-3BFF4F8F264F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E8A0B8A0-E2F7-403C-9C05-824C7AB98E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8A0B8A0-E2F7-403C-9C05-824C7AB98E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8A0B8A0-E2F7-403C-9C05-824C7AB98E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9287F550-9D48-4CC3-9AA4-C3C059DD9939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9287F550-9D48-4CC3-9AA4-C3C059DD9939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9287F550-9D48-4CC3-9AA4-C3C059DD9939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9287F550-9D48-4CC3-9AA4-C3C059DD9939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B888578-0CD7-4EC5-B8F0-3BFF4F8F264F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B888578-0CD7-4EC5-B8F0-3BFF4F8F264F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B888578-0CD7-4EC5-B8F0-3BFF4F8F264F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B888578-0CD7-4EC5-B8F0-3BFF4F8F264F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
