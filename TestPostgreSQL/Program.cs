@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
-using DBGang.Configuration.PostgreSQL;
 
 namespace TestPostgreSQL
 {
@@ -13,6 +12,7 @@ namespace TestPostgreSQL
                                         .AddPostgreSQLConfiguration("Host=myServer;Database=myDatabase;Username=myUserId;Password=myPassword", reloadOnChange: true)
                                         .Build();
             
+            // Use a loop to test reloadOnChange
             while (true)
             {
                 Console.WriteLine("----------- print -------------");

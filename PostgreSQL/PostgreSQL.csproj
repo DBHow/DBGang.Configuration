@@ -6,6 +6,9 @@
     <AssemblyName>DBGang.Configuration.PostgreSQL</AssemblyName>
     <Authors>DBHow</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/DBHow/DBGang.Configuration.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>PostgreSQL Configuration</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
