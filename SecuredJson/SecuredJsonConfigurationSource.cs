@@ -4,7 +4,7 @@ namespace DBGang.Configuration.SecuredJson
 {
     public class SecuredJsonConfigurationSource : FileConfigurationSource
     {
-        public string PassPhrase { get; set; }
+        public string PassPhrase { get; set; } = "DBGang.Configuration.SecuredJson";
 
         public override IConfigurationProvider Build(IConfigurationBuilder builder)
         {

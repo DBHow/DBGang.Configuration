@@ -69,7 +69,7 @@ namespace DBGang.Configuration.SecuredJson
 
                     var newProperty = new JProperty(
                         $"{Constants.NeedDecryption}{propertyName}",
-                        UtilHelper.Encrypt($"{propertyValue.Type}{Constants.TypeValueSeparator}{propertyValue}", _passPhrase)
+                        SecuredJsonConfigurationEncryptor.Encrypt($"{propertyValue.Type}{Constants.TypeValueSeparator}{propertyValue}", _passPhrase)
                         );
                     
                     property.Remove();
@@ -97,7 +97,7 @@ namespace DBGang.Configuration.SecuredJson
                         throw new FormatException($"You cannot encrypt/decrypt this node [{propertyName}] because it's been encrypted by one of its parent node.");
                     }
 
-                    var plainText = UtilHelper.Decrypt(propertyValue.ToString(), _passPhrase).Split(Constants.TypeValueSeparator);    
+                    var plainText = SecuredJsonConfigurationEncryptor.Decrypt(propertyValue.ToString(), _passPhrase).Split(Constants.TypeValueSeparator);    
                     if (plainText.Length != 2)
                     {
                         throw new FormatException($"Format error in encrypted value for key {propertyName}.");
